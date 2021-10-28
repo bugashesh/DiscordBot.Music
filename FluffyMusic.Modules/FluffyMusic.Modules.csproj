@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net.Labs.Commands" Version="2.3.4" />
+    <PackageReference Include="Discord.Net.Labs.Core" Version="2.3.9-pre" />
+    <PackageReference Include="Discord.Net.Labs.Rest" Version="2.3.9-pre" />
+    <PackageReference Include="Discord.Net.Labs.WebSocket" Version="2.3.9-pre" />
+    <PackageReference Include="Victoria" Version="5.1.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FluffyMusic.Core\FluffyMusic.Core.csproj" />
+  </ItemGroup>
+
+</Project>
